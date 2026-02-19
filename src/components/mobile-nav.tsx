@@ -5,7 +5,7 @@ import {
   FileText,
   BarChart3,
   Search,
-  Zap,
+  Flame,
 } from "lucide-react";
 
 const navItems = [
@@ -13,7 +13,7 @@ const navItems = [
   { icon: FileText, label: "Content", id: "content" },
   { icon: BarChart3, label: "Rankings", id: "rankings" },
   { icon: Search, label: "Keywords", id: "keywords" },
-  { icon: Zap, label: "LLM", id: "llm" },
+  { icon: Flame, label: "Dominate", id: "llm" },
 ];
 
 export default function MobileNav({

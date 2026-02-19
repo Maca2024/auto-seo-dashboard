@@ -5,7 +5,7 @@ import {
   LayoutDashboard,
   FileText,
   BarChart3,
-  Zap,
+  Flame,
   Settings,
   Search,
   ChevronLeft,
@@ -17,7 +17,7 @@ const navItems = [
   { icon: FileText, label: "Content", id: "content" },
   { icon: BarChart3, label: "Rankings", id: "rankings" },
   { icon: Search, label: "Keywords", id: "keywords" },
-  { icon: Zap, label: "LLM SEO", id: "llm" },
+  { icon: Flame, label: "Domination", id: "llm" },
   { icon: Settings, label: "Settings", id: "settings" },
 ];
 
@@ -38,7 +38,7 @@ export default function Sidebar({
     >
       <div className="flex items-center gap-3 px-5 h-16 border-b border-border">
         <div className="w-8 h-8 rounded-lg bg-accent/20 flex items-center justify-center flex-shrink-0">
-          <Zap className="w-4 h-4 text-accent" />
+          <Flame className="w-4 h-4 text-accent" />
         </div>
         {!collapsed && (
           <span className="font-semibold text-sm tracking-tight">
